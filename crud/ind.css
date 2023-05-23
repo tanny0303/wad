@@ -1,0 +1,18 @@
+div{
+    margin: 10% 20% 10% 20%;
+    background-color: aliceblue;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+}
+
+form{
+    padding: 3% 25% 3% 25%;
+    width: 100px;
+    align-self: center;
+    text-align: center;
+}
+
+button{
+    width: 300px;
+    block-size: 50px;
+}

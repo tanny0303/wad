@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/s.css">
+</head>
+<body>
+
+
+ 
+    <form action="/signup" method="post">
+
+        <caption>
+            <h2 class="u">  Register </h2>
+        </caption>
+
+        <p>
+            <input type="email" name="email"   placeholder="example@gmail.com" required>
+        </p>
+
+        <p>
+            <input type="text" name="nav" placeholder="FirstName LastName" >
+        </p>
+
+        <p>
+            <input type="password" name="password"  placeholder="password" required >
+        </p>
+
+        <p>
+            <input type="password" name="confirm"  placeholder="confirm password" required>
+        </p>
+
+        <p  class="g">
+            <span>Male<input type="radio" name="gender" value="male" class="m" required> <br>
+            Female<input type="radio" name="gender" value="female" class="f" required> </span>
+        </p>
+        
+        <p>
+            <input type="number" name="age" placeholder="Age" required>
+        </p>
+
+        <p>
+            <button type="submit" name="submit" value="submit"> Submit</button>
+        </p>
+    </form>
+
+</body>
+</html>

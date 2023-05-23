@@ -1,0 +1,49 @@
+.u{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+form{
+    margin: 10% 20% 10% 20%;
+    background-color: aliceblue;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+}
+
+p:not(.g){
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    padding: 02px;
+}
+
+.g{
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    padding: 1%;
+}
+
+input[button="submit"], select{
+    background-color: whitesmoke;
+    text-emphasis-color: #000000;
+    align-content: center;
+}
+
+input:not(.g){
+    text-align: center;
+    block-size: 40px;
+    width: 400px;
+}
+
+.submit{
+    align-content: center;
+    align-self: center;
+    padding: 10px 10px 10px 10px;
+    
+}    
+
+fieldset{
+    align-items: center;
+    
+}
